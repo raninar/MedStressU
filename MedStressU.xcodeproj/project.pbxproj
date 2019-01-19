@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4A2EDAC21F2FD8100D0AB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2EDAB21F2FD8100D0AB23 /* AppDelegate.swift */; };
+		C4A2EDAE21F2FD8100D0AB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2EDAD21F2FD8100D0AB23 /* ViewController.swift */; };
+		C4A2EDB121F2FD8100D0AB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDAF21F2FD8100D0AB23 /* Main.storyboard */; };
+		C4A2EDB321F2FD9000D0AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDB221F2FD9000D0AB23 /* Assets.xcassets */; };
+		C4A2EDB621F2FD9000D0AB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDB421F2FD9000D0AB23 /* LaunchScreen.storyboard */; };
+		C4A2EDBE21F2FF9700D0AB23 /* WelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDBD21F2FF9700D0AB23 /* WelcomeScreen.storyboard */; };
+		C4A2EDC121F3000000D0AB23 /* DTElogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDC021F3000000D0AB23 /* DTElogo.png */; };
+		C4A2EDC321F306A300D0AB23 /* DTV Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A2EDC221F306A300D0AB23 /* DTV Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4A2EDA821F2FD8100D0AB23 /* MedStressU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedStressU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A2EDAB21F2FD8100D0AB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4A2EDAD21F2FD8100D0AB23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4A2EDB021F2FD8100D0AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A2EDB221F2FD9000D0AB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A2EDB521F2FD9000D0AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4A2EDB721F2FD9000D0AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A2EDBD21F2FF9700D0AB23 /* WelcomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeScreen.storyboard; sourceTree = "<group>"; };
+		C4A2EDC021F3000000D0AB23 /* DTElogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DTElogo.png; sourceTree = "<group>"; };
+		C4A2EDC221F306A300D0AB23 /* DTV Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DTV Logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A2EDA521F2FD8100D0AB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4A2ED9F21F2FD8000D0AB23 = {
+			isa = PBXGroup;
+			children = (
+				C4A2EDAA21F2FD8100D0AB23 /* MedStressU */,
+				C4A2EDA921F2FD8100D0AB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A2EDA921F2FD8100D0AB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2EDA821F2FD8100D0AB23 /* MedStressU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A2EDAA21F2FD8100D0AB23 /* MedStressU */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2EDAB21F2FD8100D0AB23 /* AppDelegate.swift */,
+				C4A2EDAD21F2FD8100D0AB23 /* ViewController.swift */,
+				C4A2EDBD21F2FF9700D0AB23 /* WelcomeScreen.storyboard */,
+				C4A2EDAF21F2FD8100D0AB23 /* Main.storyboard */,
+				C4A2EDB221F2FD9000D0AB23 /* Assets.xcassets */,
+				C4A2EDB421F2FD9000D0AB23 /* LaunchScreen.storyboard */,
+				C4A2EDB721F2FD9000D0AB23 /* Info.plist */,
+				C4A2EDBF21F2FFD100D0AB23 /* Assets */,
+			);
+			path = MedStressU;
+			sourceTree = "<group>";
+		};
+		C4A2EDBF21F2FFD100D0AB23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2EDC021F3000000D0AB23 /* DTElogo.png */,
+				C4A2EDC221F306A300D0AB23 /* DTV Logo.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A2EDA721F2FD8100D0AB23 /* MedStressU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A2EDBA21F2FD9000D0AB23 /* Build configuration list for PBXNativeTarget "MedStressU" */;
+			buildPhases = (
+				C4A2EDA421F2FD8100D0AB23 /* Sources */,
+				C4A2EDA521F2FD8100D0AB23 /* Frameworks */,
+				C4A2EDA621F2FD8100D0AB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedStressU;
+			productName = MedStressU;
+			productReference = C4A2EDA821F2FD8100D0AB23 /* MedStressU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A2EDA021F2FD8100D0AB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rani Mahmoudi";
+				TargetAttributes = {
+					C4A2EDA721F2FD8100D0AB23 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C4A2EDA321F2FD8100D0AB23 /* Build configuration list for PBXProject "MedStressU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A2ED9F21F2FD8000D0AB23;
+			productRefGroup = C4A2EDA921F2FD8100D0AB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A2EDA721F2FD8100D0AB23 /* MedStressU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A2EDA621F2FD8100D0AB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A2EDC321F306A300D0AB23 /* DTV Logo.png in Resources */,
+				C4A2EDB621F2FD9000D0AB23 /* LaunchScreen.storyboard in Resources */,
+				C4A2EDC121F3000000D0AB23 /* DTElogo.png in Resources */,
+				C4A2EDB321F2FD9000D0AB23 /* Assets.xcassets in Resources */,
+				C4A2EDB121F2FD8100D0AB23 /* Main.storyboard in Resources */,
+				C4A2EDBE21F2FF9700D0AB23 /* WelcomeScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A2EDA421F2FD8100D0AB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A2EDAE21F2FD8100D0AB23 /* ViewController.swift in Sources */,
+				C4A2EDAC21F2FD8100D0AB23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4A2EDAF21F2FD8100D0AB23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A2EDB021F2FD8100D0AB23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4A2EDB421F2FD9000D0AB23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A2EDB521F2FD9000D0AB23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A2EDB821F2FD9000D0AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4A2EDB921F2FD9000D0AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A2EDBB21F2FD9000D0AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZGY9QQ7U2;
+				INFOPLIST_FILE = MedStressU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RaniMahmoudi.MedStressU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4A2EDBC21F2FD9000D0AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZGY9QQ7U2;
+				INFOPLIST_FILE = MedStressU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RaniMahmoudi.MedStressU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A2EDA321F2FD8100D0AB23 /* Build configuration list for PBXProject "MedStressU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EDB821F2FD9000D0AB23 /* Debug */,
+				C4A2EDB921F2FD9000D0AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2EDBA21F2FD9000D0AB23 /* Build configuration list for PBXNativeTarget "MedStressU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EDBB21F2FD9000D0AB23 /* Debug */,
+				C4A2EDBC21F2FD9000D0AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4A2EDA021F2FD8100D0AB23 /* Project object */;
+}
