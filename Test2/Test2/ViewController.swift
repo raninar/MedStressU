@@ -86,6 +86,24 @@ class ViewController: UIViewController {
         IV.layer.masksToBounds = true
         IV.titleLabel?.textColor = .black
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         Chest.layer.cornerRadius =  Chest.frame.size.height * 0.33
         Chest.layer.masksToBounds = true
         Chest.titleLabel?.textColor = .black
